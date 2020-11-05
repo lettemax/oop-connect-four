@@ -15,7 +15,7 @@
       <input id="player-2-name" placeholder="Player 2 Name" type="text">
       <button id="new-game" disabled>New Game</button>
     </div>
-    <div id="board-holder">
+    <div id="board-holder" class='is-invisible'>
       <div id="click-targets">
         <div id="column-0" class="click-target"></div>
         <div id="column-1" class="click-target"></div>
@@ -66,8 +66,12 @@
         <div id="square-5-2" class="token-square"></div>
         <div id="square-5-3" class="token-square"></div>
         <div id="square-5-4" class="token-square"></div>
-        <div id="square-5-5" class="token-square"></div>
-        <div id="square-5-6" class="token-square"></div>
+        <div id="square-5-5" class="token-square">
+          <div class="token black"></div>
+        </div>
+        <div id="square-5-6" class="token-square">
+          <div class="token red"></div>
+        </div>
       </div>
       <div id="overlay"></div>
       <div id="game-name"></div>
